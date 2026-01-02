@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery | Zomato</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky White Header -->
+    <header class="white-header">
+        <div class="container nav-container">
+            <a href="index.html">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato"
+                    class="brand-logo" style="width: 120px; filter: none;">
+            </a>
+
+            <div class="header-search">
+                <i class="ri-map-pin-fill location-icon"></i>
+                <input type="text" value="New Delhi" style="width: 100px; margin-left: 0.5rem;">
+                <div class="separator" style="margin: 0 0.5rem;"></div>
+                <i class="ri-search-line search-icon"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+
+            <ul class="w-nav-links">
+                <li><a href="#" class="login-btn">Log in</a></li>
+                <li><a href="#" class="signup-btn">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Breadcrumb (Visual only) -->
+    <div class="container" style="font-size: 0.8rem; color: #9c9c9c; margin-top: 1rem;">
+        <a href="index.html" style="color: #9c9c9c;">Home</a> / <span style="color: #cfcfcf;">India</span> / <span
+            style="color: #cfcfcf;">Delhi NCR</span> / <span style="color: #1c1c1c;">Delivery</span>
+    </div>
+
+    <!-- Filters Bar -->
+    <div class="filters-bar">
+        <div class="container filter-flex">
+            <button class="filter-btn active"><i class="ri-filter-3-line"></i> Filters</button>
+            <button class="filter-btn">Rating: 4.0+</button>
+            <button class="filter-btn">Pure Veg</button>
+            <button class="filter-btn">Cuisines <i class="ri-arrow-down-s-line"></i></button>
+            <button class="filter-btn">More filters <i class="ri-arrow-down-s-line"></i></button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="delivery-content container">
+        <h2 class="listing-title">Delivery Restaurants in Delhi NCR</h2>
+
+        <div class="res-grid">
+            <!-- Card 1 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&auto=format&fit=crop&q=60"
+                        alt="Burger">
+                    <div class="discount-tag">50% OFF</div>
+                    <div class="delivery-time">32 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Burger King</div>
+                        <div class="res-rating">4.2 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Burger, Fast Food</div>
+                        <div class="res-price">₹150 for one</div>
+                    </div>
+                    <div class="safety-divider"></div>
+                    <div class="safety-row">
+                        <i class="ri-checkbox-circle-fill" style="color: #24963f;"></i> Follows all Max Safety measures
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60"
+                        alt="Pizza">
+                    <div class="discount-tag">PRO EXTRA 10% OFF</div>
+                    <div class="delivery-time">45 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Pizza Hut</div>
+                        <div class="res-rating">3.9 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Pizza, Fast Food, Beverages</div>
+                        <div class="res-price">₹300 for one</div>
+                    </div>
+                    <div class="safety-divider"></div>
+                    <div class="safety-row">
+                        <i class="ri-arrow-up-circle-fill" style="color: #8a2be2;"></i> 2000+ orders placed from here
+                        recently
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?w=600&auto=format&fit=crop&q=60"
+                        alt="Chicken">
+                    <div class="discount-tag">flat ₹125 OFF</div>
+                    <div class="delivery-time">28 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">KFC</div>
+                        <div class="res-rating">4.1 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Burger, Fast Food, Biryani</div>
+                        <div class="res-price">₹200 for one</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&auto=format&fit=crop&q=60"
+                        alt="Indian">
+                    <div class="discount-tag">60% OFF</div>
+                    <div class="delivery-time">38 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Haldiram's</div>
+                        <div class="res-rating">4.4 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">North Indian, Mithai, South Indian</div>
+                        <div class="res-price">₹350 for one</div>
+                    </div>
+                    <div class="safety-divider"></div>
+                    <div class="safety-row">
+                        pure veg
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1551024601-569d6f455bf1?w=600&auto=format&fit=crop&q=60"
+                        alt="Chinese">
+                    <div class="discount-tag">ITEMS AT ₹99</div>
+                    <div class="delivery-time">22 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Wow! Momo</div>
+                        <div class="res-rating">4.0 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Momos, Fast Food</div>
+                        <div class="res-price">₹150 for one</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&auto=format&fit=crop&q=60"
+                        alt="Ice Cream">
+                    <div class="delivery-time">15 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Baskin Robbins</div>
+                        <div class="res-rating">4.6 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Ice Cream, Desserts</div>
+                        <div class="res-price">₹250 for one</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1542365851-1f22ba597972?w=600&auto=format&fit=crop&q=60"
+                        alt="Breakfast">
+                    <div class="discount-tag">50% OFF</div>
+                    <div class="delivery-time">40 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Chaayos</div>
+                        <div class="res-rating">4.3 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Tea, Fast Food, Snacks</div>
+                        <div class="res-price">₹180 for one</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60"
+                        alt="Burger">
+                    <div class="discount-tag">20% OFF</div>
+                    <div class="delivery-time">35 min</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">McDonald's</div>
+                        <div class="res-rating">4.1 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Burger, Fast Food</div>
+                        <div class="res-price">₹220 for one</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Reuse -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p style="text-align:center;">Zomato Clone Project for Portfolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

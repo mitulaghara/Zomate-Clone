@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightlife | Zomato</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        /* Nightlife specific dark mode tweak for this page body if needed, but keeping white for consistency with Zomato web */
+        .nightlife-banner {
+            background: linear-gradient(90deg, #2e0e0e 0%, #1a0520 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky White Header -->
+    <header class="white-header">
+        <div class="container nav-container">
+            <a href="index.html">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato"
+                    class="brand-logo" style="width: 120px; filter: none;">
+            </a>
+
+            <div class="header-search">
+                <i class="ri-map-pin-fill location-icon"></i>
+                <input type="text" value="New Delhi" style="width: 100px; margin-left: 0.5rem;">
+                <div class="separator" style="margin: 0 0.5rem;"></div>
+                <i class="ri-search-line search-icon"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+
+            <ul class="w-nav-links">
+                <li><a href="#" class="login-btn">Log in</a></li>
+                <li><a href="#" class="signup-btn">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container" style="font-size: 0.8rem; color: #9c9c9c; margin-top: 1rem;">
+        <a href="index.html" style="color: #9c9c9c;">Home</a> / <span style="color: #cfcfcf;">India</span> / <span
+            style="color: #cfcfcf;">Delhi NCR</span> / <span style="color: #1c1c1c;">Nightlife</span>
+    </div>
+
+    <!-- Nightlife Banner -->
+    <div class="container mobile-banner-pad">
+        <div class="nightlife-banner">
+            <!-- Abstract shapes or reduced opacity image in background -->
+            <div
+                style="position:absolute; right: 0; top:0; width: 50%; height: 100%; background: url('https://images.unsplash.com/photo-1570872626485-d8ffea69f463?w=800&auto=format&fit=crop&q=60') no-repeat center right; opacity: 0.3; background-size: cover;">
+            </div>
+            <div class="container" style="position: relative; z-index: 2;">
+                <h1 style="font-size: 2.5rem;">Nightlife in Delhi NCR</h1>
+                <p style="font-size: 1.1rem; opacity: 0.8;">Discover the best bars, clubs, and drink spots</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters Bar -->
+    <div class="filters-bar">
+        <div class="container filter-flex">
+            <button class="filter-btn active"><i class="ri-filter-3-line"></i> Filters</button>
+            <button class="filter-btn">Pro</button>
+            <button class="filter-btn">Distance <i class="ri-arrow-up-down-line"></i></button>
+            <button class="filter-btn">Rating: 4.0+</button>
+            <button class="filter-btn">Pubs & Bars</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="delivery-content container">
+        <h2 class="listing-title">Nightlife Restaurants in Delhi NCR</h2>
+
+        <div class="res-grid">
+            <!-- Card 1 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=600&auto=format&fit=crop&q=60"
+                        alt="Club">
+                    <div class="discount-tag" style="background: #2e0e0e;">PRO PARTNER</div>
+                    <div class="delivery-time">2.1 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Privee</div>
+                        <div class="res-rating" style="background: #24963f;">4.2 <i class="ri-star-fill"
+                                style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Club, Finger Food</div>
+                        <div class="res-price">₹3000 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&auto=format&fit=crop&q=60"
+                        alt="Cocktail Bar">
+                    <div class="delivery-time">4.2 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Sidecar</div>
+                        <div class="res-rating">4.8 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Bar, Asian</div>
+                        <div class="res-price">₹2500 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1536935338788-843bb6303669?w=600&auto=format&fit=crop&q=60"
+                        alt="Rooftop">
+                    <div class="delivery-time">6.0 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Auro Kitchen & Bar</div>
+                        <div class="res-rating">4.3 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Modern Indian, Continental</div>
+                        <div class="res-price">₹2000 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=600&auto=format&fit=crop&q=60"
+                        alt="Pub">
+                    <div class="delivery-time">3.5 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Summer House Cafe</div>
+                        <div class="res-rating">4.4 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Italian, Continental</div>
+                        <div class="res-price">₹2200 for two</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Reuse -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p style="text-align:center;">Zomato Clone Project for Portfolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals Placeholder -->
+    <div id="modal-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

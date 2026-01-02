@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining Out | Zomato</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky White Header -->
+    <header class="white-header">
+        <div class="container nav-container">
+            <a href="index.html">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato"
+                    class="brand-logo" style="width: 120px; filter: none;">
+            </a>
+
+            <div class="header-search">
+                <i class="ri-map-pin-fill location-icon"></i>
+                <input type="text" value="New Delhi" style="width: 100px; margin-left: 0.5rem;">
+                <div class="separator" style="margin: 0 0.5rem;"></div>
+                <i class="ri-search-line search-icon"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+
+            <ul class="w-nav-links">
+                <li><a href="#" class="login-btn">Log in</a></li>
+                <li><a href="#" class="signup-btn">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container" style="font-size: 0.8rem; color: #9c9c9c; margin-top: 1rem;">
+        <a href="index.html" style="color: #9c9c9c;">Home</a> / <span style="color: #cfcfcf;">India</span> / <span
+            style="color: #cfcfcf;">Delhi NCR</span> / <span style="color: #1c1c1c;">Dining Out</span>
+    </div>
+
+    <!-- Collection Banner using generated image -->
+    <div class="container" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+        <div class="dining-hero"
+            style="background: url('assets/images/dining_interior.png'); background-size: cover; background-position: center; height: 320px; border-radius: 12px; position: relative; display: flex; align-items: flex-end; padding: 2rem;">
+            <div class="hero-overlay" style="border-radius: 12px;"></div>
+            <div style="position: relative; color: white; z-index: 2;">
+                <h1 style="font-size: 3rem; margin-bottom: 0.5rem;">Dine-Out in Style</h1>
+                <p style="font-size: 1.2rem; opacity: 0.9;">Explore the city's top dining venues</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters Bar -->
+    <div class="filters-bar">
+        <div class="container filter-flex">
+            <button class="filter-btn active"><i class="ri-filter-3-line"></i> Filters</button>
+            <button class="filter-btn">Gold</button>
+            <button class="filter-btn">Rating: 4.0+</button>
+            <button class="filter-btn">Outdoor Seating</button>
+            <button class="filter-btn">Serves Alcohol</button>
+            <button class="filter-btn">Open Now</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="delivery-content container">
+        <h2 class="listing-title">Trending Dining Restaurants in Delhi NCR</h2>
+
+        <div class="res-grid">
+            <!-- Card 1 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="assets/images/dining_food.png" alt="Fine Dining">
+                    <div class="discount-tag" style="background: #D4AF37;">GOLD EXCLUSIVE</div>
+                    <div class="delivery-time">2.5 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">The Oberoi</div>
+                        <div class="res-rating" style="background: #24963f;">4.9 <i class="ri-star-fill"
+                                style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">European, Modern Indian</div>
+                        <div class="res-price">₹4000 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?w=600&auto=format&fit=crop&q=60"
+                        alt="Sushi">
+                    <div class="delivery-time">5.0 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Yum Yum Cha</div>
+                        <div class="res-rating">4.7 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Japanese, Sushi, Pan Asian</div>
+                        <div class="res-price">₹2500 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop&q=60"
+                        alt="Italian">
+                    <div class="discount-tag">FLAT 20% OFF</div>
+                    <div class="delivery-time">3.2 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Big Chill Cafe</div>
+                        <div class="res-rating">4.5 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Italian, Continental</div>
+                        <div class="res-price">₹1800 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=60"
+                        alt="Cafe">
+                    <div class="delivery-time">1.2 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Diggin</div>
+                        <div class="res-rating">4.3 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Cafe, Italian</div>
+                        <div class="res-price">₹1400 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&auto=format&fit=crop&q=60"
+                        alt="Barbeque">
+                    <div class="delivery-time">4.5 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Barbeque Nation</div>
+                        <div class="res-rating">4.4 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">North Indian, BBQ</div>
+                        <div class="res-price">₹1600 for two</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="res-card">
+                <div class="res-img-div">
+                    <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&auto=format&fit=crop&q=60"
+                        alt="Coffee">
+                    <div class="delivery-time">0.8 km</div>
+                </div>
+                <div class="res-info">
+                    <div class="res-name-row">
+                        <div class="res-name">Blue Tokai Coffee</div>
+                        <div class="res-rating">4.6 <i class="ri-star-fill" style="font-size: 0.6rem;"></i></div>
+                    </div>
+                    <div class="res-cuisine-row">
+                        <div class="res-cuisines">Coffee, Cafe</div>
+                        <div class="res-price">₹600 for two</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Reuse -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p style="text-align:center;">Zomato Clone Project for Portfolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals Placeholder -->
+    <div id="modal-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
