@@ -1,7 +1,5 @@
 # 🍅 Zomato Clone
 
-![Zomato Clone Banner](assets/images/hero.png)
-
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -42,16 +40,6 @@ A pixel-perfect, fully responsive clone of the **Zomato** website interaction an
 *   **📱 Fully Responsive**:
     *   Mobile-first approach.
     *   Adapts seamlessly from desktop to tablet and mobile screens.
-
-## 📸 Screenshots
-
-| Home Page | Delivery Page |
-|:---:|:---:|
-| <img src="assets/images/hero.png" width="400"> | <img src="assets/images/order.png" width="400"> |
-
-| Dining Out | Nightlife |
-|:---:|:---:|
-| <img src="assets/images/dining.png" width="400"> | <img src="assets/images/night.png" width="400"> |
 
 ## 🛠️ Built With
 
