@@ -17,7 +17,7 @@ A pixel-perfect, fully responsive clone of the **Zomato** website interaction an
 
 ### 🌟 Live Demo
 <!-- Replace the link below with your actual deployed link (e.g., Vercel/Netlify) -->
-[**View Live Demo**](https://your-username.github.io/zomato-clone) 🚀
+[**View Live Demo**](https://mitulaghara.github.io/Zomate-Clone/) 🚀
 
 ## ✨ Features
 
