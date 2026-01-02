@@ -16,7 +16,6 @@
 A pixel-perfect, fully responsive clone of the **Zomato** website interaction and design. This project replicates the premium food delivery experience with a focus on visual aesthetics, smooth animations, and a user-friendly interface. It includes multiple pages for **Delivery**, **Dining Out**, and **Nightlife**, all tied together with a robust design system.
 
 ### 🌟 Live Demo
-<!-- Replace the link below with your actual deployed link (e.g., Vercel/Netlify) -->
 [**View Live Demo**](https://mitulaghara.github.io/Zomate-Clone/) 🚀
 
 ## ✨ Features
@@ -65,24 +64,15 @@ A pixel-perfect, fully responsive clone of the **Zomato** website interaction an
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/zomato-clone.git
+    git clone https://github.com/mitulaghara/Zomate-Clone.git
     ```
 2.  **Open the project**
     *   Navigate to the project folder.
     *   Open `index.html` in your browser (or use Live Server in VS Code).
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-1.  Fork the project.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ---
 <p align="center">Made with ❤️ for Foodies</p>
